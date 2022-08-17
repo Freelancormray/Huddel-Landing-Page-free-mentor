@@ -1,0 +1,53 @@
+///* VARIABLES *///
+
+// COLORS //
+$color-primary: hsl(322, 100%, 66%);
+$Very-Pale-Cyan: #ebfbff;
+$Very-Dark-Cyan: hsl(192, 100%, 9%);
+$Grayish-Blue: hsl(208, 11%, 55%);
+
+// WHITE SPACES //
+
+$horizontal-gap: 6rem;
+$margin-section: 8.6rem 0;
+$box-shadow: 0 1rem 2.6rem rgba(137, 137, 137, 0.2);
+
+///* UTILITY CLASSES *///
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.5rem;
+  margin: auto;
+}
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+  color: $Very-Dark-Cyan;
+
+  &__primary {
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-bottom: 2.4rem;
+  }
+
+  &__secondary {
+    font-size: 2.8rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  color: $Grayish-Blue;
+  line-height: 1.4;
+}
+
+// HELPER CLASSES //
+.u-text-center {
+  text-align: center;
+}
